@@ -65,7 +65,7 @@ This project assumes you have the following:
 - Python 3.5+
 - [Docker](https://docs.docker.com/install/)
 - [Cloud SDK](https://cloud.google.com/sdk/downloads)
-- Bazel v0.11 or greater
+- [Bazel](https://docs.bazel.build/versions/master/install.html) v0.11 or greater
 
 The [Hitchhiker's guide to
 python](http://docs.python-guide.org/en/latest/dev/virtualenvs/) has a good
