@@ -79,9 +79,11 @@ pip3 install virtualenvwrapper
 
 Install TensorFlow
 ------------------
-First set up and enter your virtualenv and then the shared requirements:
+First clone this MiniGo repository, then set up and enter your virtualenv and set up the shared requirements:
 
 ```
+virtualenv venv
+source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
@@ -92,6 +94,8 @@ Then, you'll need to choose to install the GPU or CPU tensorflow requirements:
     9.0](https://developer.nvidia.com/cuda-90-download-archive). for Tensorflow
     1.5+.
 - CPU: `pip3 install "tensorflow>=1.11,<1.12"`.
+
+(When you are done playing MiniGo you can type `deactivate` in your terminal to exit virtualenv.)
 
 Setting up the Environment
 --------------------------
